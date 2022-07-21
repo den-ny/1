@@ -10,9 +10,9 @@ Search recent most Magic: The Gathering standard format set, Streets of New Cape
 
 ## Card Information Endpoints
 
-* [Show All Cards](docs/get.md) : `GET /cards`
-* [Show A Card](docs/get.md) : `GET /cards/:num`
-* [Search for Cards](docs/get.md) : `GET /cards/o=:query`
+* [Show All Cards](docs/get.md#show-all-cards) : `GET /cards`
+* [Show A Card](docs/get.md#show-a-card) : `GET /cards/:num`
+* [Search for Cards](docs/get.md#search-for-text-on-card) : `GET /cards/o=:query`
 * [Create A Card](docs/post.md) : `POST /cards
 * [Update A Card](docs/put.md) : `PUT /cards/:num`
 * [Delete A Card](docs/delete.md) : `DELETE /cards/:num`
