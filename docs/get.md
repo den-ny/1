@@ -32,37 +32,6 @@ Finds card number 25 in the set.
 "__v":0
 }
 ```
-
-# Show A Card
-
-Retrieve any booster card from the most recent standard set of Magic: the Gathering.
-
-**URL** : `/cards/:num`
-
-## Success Response
-
-**Content examples**
-
-Finds card number 25 in the set.
-
-```json
-{
-"_id":"",
-"number":"25",
-"name":"Raffine's Guidance",
-"colors":["W"],
-"manaCost":"{W}",
-"manaValue":1,
-"type":"Enchantment — Aura",
-"types":["Enchantment"],
-"subtypes":["Aura"],
-"keywords":["Enchant"],
-"text":"Enchant creature\nEnchanted creature gets +1/+1.\nYou may cast Raffine's Guidance from your graveyard by paying {2}{W} rather than paying its mana cost.","rarity":"common",
-"artist":"Rémi Jacquot",
-"__v":0
-}
-```
-
 # Search for Text on Card
 
 Returns card(s) that match the query 
