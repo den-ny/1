@@ -8,6 +8,15 @@ Standard Magic: The Gathering
 
 Search recent most Magic: The Gathering standard format set, Streets of New Capenna
 
+## Card Information Endpoints
+
+* [Show All Cards](docs/get.md) : `GET /cards`
+* [Show A Card](docs/get.md) : `GET /cards/:num`
+* [Search for Cards](docs/get.md) : `GET /cards/o=:query`
+* [Create A Card](docs/post.md) : `POST /cards
+* [Update A Card](docs/put.md) : `PUT /cards/:num`
+* [Delete A Card](docs/delete.md) : `DELETE /cards/:num`
+
 ### Built With
 Express<br>
 Mongoose
